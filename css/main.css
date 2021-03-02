@@ -1,0 +1,187 @@
+/***** BASE STYLES *****/
+body{
+    background-color: #101342;
+    /*background gradient*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #6EB6CF;
+}
+
+h1{
+    font-family: 'DotGothic16', sans-serif;
+    color: #F0B938;
+}
+
+h2{
+    font-family: 'DotGothic16', sans-serif;
+    color:#C24781;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-family: 'Cantarell', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    color: #F0B938;
+}
+
+h4{
+    margin-top:0;
+    font-weight: normal;
+    color: #CFFFFF;
+}
+
+/*** IMG SIZING ***/
+
+.img-sizing{
+ width: 470px;
+}
+
+
+/****** GRIDS *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/***** TOP-SECTION *****/
+
+header{
+    background-image: url("../img/pixel_keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* 
+    THIS IS THE HEADER HERO IMG TO FILL UP TO 1200px INSTEAD OF TAKING FULL LENGTH OF SITE
+
+    .top-section .full-width{
+    background-image: url("../img/pixel_keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+} */
+
+.logo, nav{
+    font-family: 'DotGothic16';
+    font-size: 18px;
+    /* font-variant:small-caps; THIS GETS AN ERROR ON 'N' IN FIREFOX FOR DOTGOTHIC FONT */
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FA7F8D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    /* padding-right: 15px; */
+}
+
+.top-section h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    /* color: #f1ef5e; */
+}
+
+/***** PORTFOLIO *****/
+
+.portfolio .full-width{
+    margin-bottom: 25px;
+}
+
+.portfolio .summary{
+    padding-top: 0;
+    text-align: right;
+}
+
+.portfolio img{
+    padding-bottom: 0px;
+}
+
+.portfolio .align-right{
+   
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.portfolio .align-right p{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 0;
+    
+}
+
+.portfolio .align-left{
+    text-align:left;
+}
+
+
+/***** ABOUT *****/
+
+.about .full-width{
+    background-image: url("../img/old-computer.jpg");
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 80px;
+    margin-top: 80px;
+
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about h3, .about p{
+    text-align: left;
+    padding-left: 10px;
+    color: #CFFFFF;
+    /* width: 650px; */
+}
+
+.about .about-shade{
+    background-color: hsla(236, 61%, 16%, 0.71);
+    padding:5px;
+}
+
+
+/***** CONTACT & FOOTER *****/
+
+.contact p,.contact h3, footer p{
+    text-align: center;
+}
+
+i{
+    font-size: 35px;
+    padding-right: 8px;
+    color:#C24781;
+}
+
+
+
+/***** RESPONSIVE FEATURES *****/
+
+.portfolio img:hover{
+    opacity:100%;
+}
