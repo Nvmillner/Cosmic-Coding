@@ -75,7 +75,8 @@ header{
     background-size: cover;
     background-position: center;
     height: 400px;
-} */
+} 
+*/
 
 .logo, nav{
     font-family: 'DotGothic16';
@@ -96,6 +97,14 @@ li{
     display: inline-block;
     list-style: none;
     /* padding-right: 15px; */
+}
+
+li a{
+    display: inline-block;
+    list-style: none;
+    /* padding-right: 15px; */
+    text-decoration: none;
+    color:inherit;
 }
 
 .top-section h1{
@@ -184,4 +193,8 @@ i{
 
 .portfolio img:hover{
     opacity:100%;
+}
+
+li a:hover{
+    color: #CFFFFF;
 }
