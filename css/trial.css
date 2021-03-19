@@ -1,0 +1,73 @@
+html{
+    background-color: #101342;
+    font-size: 16px;
+}
+
+body{
+   
+    font-size: 1em;
+    color: #6EB6CF;
+   
+}
+
+h1{
+    font-size: 3em;
+}
+
+
+
+/* BASE GRIDS */
+
+.full-width{
+    width: 62%;
+   
+}
+
+.half-width{
+   
+}
+
+
+/* HEADER */
+
+header .full-width{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+
+/* PROFILE */
+
+.portfolio .full-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.portfolio h2{
+    text-align: center;
+}
+
+
+@media (min-width:728px){
+    html{
+        background-color: lavender;
+    }
+}
+
+@media (min-width:1200px){
+    html{
+        background-color: indigo;
+    }
+}

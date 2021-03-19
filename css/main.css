@@ -1,15 +1,21 @@
 /***** BASE STYLES *****/
-body{
+
+html{
     background-color: #101342;
-    /*background gradient*/
+    font-size: 16px;
+}
+
+body{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     color: #6EB6CF;
 }
 
 h1{
     font-family: 'DotGothic16', sans-serif;
+    font-size: 3.5em;
     color: #F0B938;
+
 }
 
 h2{
@@ -43,24 +49,28 @@ h4{
 
 /****** GRIDS *****/
 .full-width{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
 
 .half-width{
-    width: 600px;
+    width: 50%;
     float: left;
 }
 
 .third-width{
-    width: 400px;
+    width: 33%;
     float: left;
 }
 
 /***** TOP-SECTION *****/
 
 header{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
     background-image: url("../img/pixel_keyboard.jpg");
     background-size: cover;
     background-position: center;
@@ -109,7 +119,6 @@ li a{
 
 .top-section h1{
     text-align: center;
-    font-size: 60px;
     margin-top: 150px;
     /* color: #f1ef5e; */
 }
